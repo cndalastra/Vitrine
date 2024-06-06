@@ -1,11 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Talhão 01</title>
+    <link rel="stylesheet" href="../sass/talhoes.module.css">
 </head>
+
 <body>
-    p1
+    <header>
+        <div>
+            <img src="./images/culturas/grape.webp" alt="">
+        </div>
+        <h1>Estação 1</h1>
+        <h2>Tomate Grape</h2>
+    </header>
+    <footer>
+        <section id="buttons">
+            <button id="Cultivar" autofocus>Cultivar</button>
+            <button id="Ciclo">Ciclo</button>
+            <button id="Manejo">Menejo</button>
+        </section>
+        <div id="tabs">
+            <div aria-label="Cultivar" class="show">
+                <div>
+                    <span class="icon">grass</span>
+                    <div class="item">
+                        <span class="title">03/04/2024 - Semeadura</span>
+                        <span class="desc"> Semadura direta com densidade de 25 plantas por metro</span>
+                    </div>
+                    <span class="line"></span>
+                </div>
+                <div>
+                    <span class="icon">grass</span>
+                    <div class="item">
+                        <span class="title">03/04/2024 - Semeadura</span>
+                        <span class="desc"> Semadura direta com densidade de 25 plantas por metro</span>
+                    </div>
+                    <span class="line"></span>
+                </div>
+
+                <div>
+                    <span class="icon">barcode_reader</span>
+                    <div class="item">
+                        <span class="title">18/04/2024 - Aplicação de herbicida</span>
+                        <span class="desc"> Aplicaao para contenção de tiririca. Foi aplicado 2,4-d na de ose de
+                            3l/ha.</span>
+                    </div>
+                    <span class="line"></span>
+                </div>
+
+                <div>
+                    <span class="icon">local_drink</span>
+                    <div class="item">
+                        <span class="title">25/04/2024 - Fertirrigação</span>
+                        <span class="desc"> Aplicaao para contenção de tiririca. Foi aplicado 2,4-d na de ose de
+                            3l/ha.</span>
+                    </div>
+                    <span class="line"></span>
+                </div>
+
+                <div>
+                    <span class="icon">kayaking</span>
+                    <div class="item">
+                        <span class="title">25/05/2024 - Expectativa de colheita</span>
+                        <span class="desc"> Aplicaao para contenção de tiririca. Foi aplicado 2,4-d na de ose de
+                            3l/ha.</span>
+                    </div>
+                    <span class="line"></span>
+                </div>
+
+            </div>
+
+            <div aria-label="Ciclo">
+                <h3>Ciclo</h3>
+                <p>Paris is the capital of France.</p>
+            </div>
+
+            <div aria-label="Manejo">
+                <div>
+                    <span class="icon">grass</span>
+                    <div class="item">
+                        <span class="title">03/04/2024 - Semeadura</span>
+                        <span class="desc"> Semadura direta com densidade de 25 plantas por metro</span>
+                    </div>
+                    <span class="line"></span>
+                </div>
+                <div>
+                    <span class="icon">grass</span>
+                    <div class="item">
+                        <span class="title">03/04/2024 - Semeadura</span>
+                        <span class="desc"> Semadura direta com densidade de 25 plantas por metro</span>
+                    </div>
+                    <span class="line"></span>
+                </div>
+
+                <div>
+                    <span class="icon">barcode_reader</span>
+                    <div class="item">
+                        <span class="title">18/04/2024 - Aplicação de herbicida</span>
+                        <span class="desc"> Aplicaao para contenção de tiririca. Foi aplicado 2,4-d na de ose de
+                            3l/ha.</span>
+                    </div>
+                    <span class="line"></span>
+                </div>
+
+                <div>
+                    <span class="icon">local_drink</span>
+                    <div class="item">
+                        <span class="title">25/04/2024 - Fertirrigação</span>
+                        <span class="desc"> Aplicaao para contenção de tiririca. Foi aplicado 2,4-d na de ose de
+                            3l/ha.</span>
+                    </div>
+                    <span class="line"></span>
+                </div>
+
+                <div>
+                    <span class="icon">kayaking</span>
+                    <div class="item">
+                        <span class="title">25/05/2024 - Expectativa de colheita</span>
+                        <span class="desc"> Aplicaao para contenção de tiririca. Foi aplicado 2,4-d na de ose de
+                            3l/ha.</span>
+                    </div>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script>
+            document.getElementById('buttons').addEventListener('click', (e) => {
+                Array
+                    .from(
+                        document.getElementById('tabs')
+                            .children
+                    )
+                    .forEach(tag => {
+                        tag.classList.remove('show')
+                        if (e.target.id == tag.getAttribute('aria-label')) {
+                            tag.classList.add('show')
+                        }
+                    });
+            })
+
+        </script>
+
+
+
+
+
+    </footer>
 </body>
+
 </html>
