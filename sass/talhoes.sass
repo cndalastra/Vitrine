@@ -1,0 +1,135 @@
+
+@font-face
+    font-family: 'Material Icons'
+    src: url('https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2') format('woff2')
+
+.icons
+    font-family: 'Material Icons'
+    font-weight: normal
+    font-style: normal
+
+$greenLite: rgb(98, 181, 91)
+$greenDark: rgb(0, 107, 71)
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 65.8%
+
+    body
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        gap: 1rem
+        height: calc(100vh - 56px)
+        background-image: url('bg.png'), url('senar.jpeg')
+        background-repeat: no-repeat
+        background-size: 100% auto, 15%
+        background-position: bottom left, 1rem 1rem
+        // background-image: url('bg.png') url('senar.jpeg')
+        // background-repeat: no-repeat
+        // background-size: 100% auto 
+        // background-position: bottom
+
+        header
+            display: flex
+            flex-direction: column
+            gap: 1rem
+            justify-content: center
+            align-items: center
+            height: 30vh
+            background: linear-gradient(166deg, rgba(242, 244, 245, 0) 0%, #1a710023 40%, #a9d19700 1%, rgba(224, 239, 249, 0) 100%)
+
+            div
+                display: flex
+
+                img
+                    height: 8rem
+                    aspect-ratio: 1
+                    object-fit: cover
+                    border-radius: 50%
+                    box-shadow: 2px 2px 3px 1px #00000062
+            h1
+                color: $greenLite
+                font-size: 1.5rem
+
+        footer
+            flex-grow: 1
+            display: flex
+            flex-direction: column
+            padding: 1rem
+            section#buttons
+                display: flex
+                gap: .5rem
+                border-bottom: 1px solid grey
+                padding: 0 1rem
+                height: 2.5rem
+
+                button
+                    position: relative
+                    border-radius: .5rem .5rem 0 0
+                    padding: .5rem 1rem
+                    border: 1px solid grey
+                    background: gainsboro
+                    height: 2.5rem
+                    &:focus
+                        outline: none
+                        background: white
+                        border-bottom: none
+
+            div#tabs
+                flex-grow: 1
+                border: 1px solid grey
+                border-top: none
+                border-radius: 0 0 .8rem .8rem
+                padding: 1rem
+                backdrop-filter: blur(5px)
+                background: #ffffff7c
+
+                &>div
+                    display: none
+
+                    &>div
+                        display: grid
+                        grid-template: auto / 1fr 9fr
+                        grid-template-areas: 'icon desc' 'line desc'
+                        grid-column-gap: 1rem
+
+                        span.icon
+                            grid-area: icon
+                            justify-self: center
+                            font-family: 'Material Icons'
+                            font-size: 2.5rem
+                            height: 1rem
+                            color: #303030
+
+                        span.line
+                            justify-self: center
+                            border-left: 1.5px dashed grey
+                        div.item
+                            grid-area: desc
+                            min-height: 5rem
+
+                            span.title
+                                align-self: center
+                                font-weight: bold
+                                color: #1C7A6F
+                                font-size: 1.1rem
+                                display: block
+                            span.desc
+                                margin-bottom: 1rem
+
+                div.show
+                    display: flex
+                    flex-direction: column
+                    gap: .3rem
+
+@media screen and (orientation: landscape)
+    html
+        background: black
+        body
+            display: none

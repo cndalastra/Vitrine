@@ -1,0 +1,96 @@
+
+@font-face
+  font-family: 'Icons'
+  src: url('https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2') format('woff2')
+
+$greenLite:rgb(98, 181, 91)
+$greenDark:rgb(0, 107, 71)
+
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+html
+  font-size: 65%
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+  body
+    display: grid
+    grid-template: auto auto auto /auto
+    height: calc(100vh - 56px)
+    width: 100vw
+    padding: 1rem
+    overflow: hidden
+
+    header
+      display: flex
+      flex-direction: column
+      gap: 3rem
+      justify-content: center
+      align-items: center
+
+      img
+        width: 100%
+        border-radius: 1rem
+
+    div
+      overflow: auto
+      q
+        display: block
+        margin: 1.5rem
+        font-size: 1.8rem
+        color: $greenDark
+        text-align: center
+
+      h1
+        font-size: 1.8rem
+        margin: 1rem
+
+      h2
+        display: flex
+        gap: 0.5rem
+        align-items: center
+        font-size: 1.5rem
+        margin: .5rem
+        &>span
+          font-family: 'icons'
+          font-size: 1.8rem
+          font-weight: normal
+          color: grey
+      ul
+        margin-left: 1rem
+        font-size: 1.2rem
+        &>p
+          font-weight: bold
+          color: $greenDark
+          margin: 1rem 0
+          font-size: 1.3rem
+        li
+          display: grid
+          column-gap: .5rem
+          grid-template: auto auto / 1fr 8fr
+          align-items: center
+          margin: 1rem 0 1rem 0
+          font-size: 1.4rem
+
+          i
+            grid-area: 1/1/3/1
+            font-family: 'icons'
+            font-style: normal
+            font-size: 2.5rem
+            color: grey
+
+          span
+            font-size: 1.2rem
+            color: $greenLite
+
+    footer
+      background-color: gainsboro
+      border-radius: .5rem
+      padding: 1rem
+
+      img
+        width: 100%
+        border-radius: .5rem
