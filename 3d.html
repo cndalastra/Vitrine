@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Event with A-Frame</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <style>
+      body, html { margin: 0; padding: 0; width: 100%; height: 100%; }
+    </style>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Use a sky entity to load a 360° panorama image -->
+      <a-sky src="panorama.jpg"></a-sky>
+
+      <!-- Add interactive elements such as informational hotspots -->
+      <a-entity 
+        geometry="primitive: plane; height: 1; width: 1" 
+        material="color: yellow" 
+        position="1 2 -3"
+        text="value: Info about this stand; color: black">
+        <a-animation
+          attribute="rotation"
+          to="0 360 0"
+          dur="5000"
+          repeat="indefinite"></a-animation>
+      </a-entity>
+
+      <!-- Camera and controls -->
+      <a-camera position="0 1.6 0">
+        <a-cursor></a-cursor>
+      </a-camera>
+    </a-scene>
+  </body>
+</html>
