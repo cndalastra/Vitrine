@@ -56,6 +56,7 @@ html
             h1
                 color: $greenLite
                 font-size: 1.5rem
+                text-align: center
 
         footer
             flex-grow: 1
@@ -92,7 +93,29 @@ html
 
                 &>div
                     display: none
+                    & > h1
+                        font-size: 1.5rem
+                    & > p
+                        border: 1px solid rgba($greenLite, .5)
+                        background:  rgba($greenLite, .3)
+                        padding: .5rem 1rem
+                        border-radius: .5rem
+                        color: $greenDark
 
+                    & > hr
+                        margin: 1rem 0
+
+                    & > img
+                        border-radius: .5rem
+
+                    &>article
+                        text-indent: 2rem
+                        font-size: 1.2rem
+
+                        > p
+                            margin:1rem 0
+                            text-align: justify
+                            hyphens: auto
                     &>div
                         display: grid
                         grid-template: auto / 1fr 9fr

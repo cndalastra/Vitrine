@@ -1,0 +1,53 @@
+[
+    {
+        "id": "p1",
+        "img": "grape.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Tomate Grape",
+        "Tab0": {
+            "nome": "Estande",
+            "img":"grape.png"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Pontos fortes: Segurança de resultados em diferentes condições e ambientes; alta tolerância a rachaduras nos frutos; longevidade de colheita com manutenção do rendimento e qualidade. Resistências: Fol raça 1, ToMV estirpe Tm1, Ss. Características: Planta rústica; brix médio: 9°; peso médio de frutos: 15g. Época de cultivo: Verão/Inverno. Tipo de cultivo: Cultivo protegido/Campo aberto.",
+            "cultivar":"Redo x"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao":"Vasos sob espaldeira",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "01/01/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "semeadura direta no vaso."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "01/01/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "01/01/2024",
+                    "titulo": "Pulverização co inseticida",
+                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe":"O tomate grape  é rico em vitaminas A, B e C, além de ser fonte de sais minerais importantes como: potássio, cálcio, fósforo e magnésio. Com o sabor mais adocicado, o tomate grape pode ser consumido como petisco, ser incluído no preparo de sucos detox, em saladas e pratos quentes. Diferente de outros frutos, o tomate grape não perde suas propriedades no cozimento, ele fica ainda mais nutritivo."
+        }
+    },
+    {
+        "id": "p2",
+        "img": "grape.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Tomate Grape"
+    }
+]

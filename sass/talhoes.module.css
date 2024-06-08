@@ -51,6 +51,7 @@ html body header div img {
 html body header h1 {
   color: rgb(98, 181, 91);
   font-size: 1.5rem;
+  text-align: center;
 }
 html body footer {
   flex-grow: 1;
@@ -89,6 +90,31 @@ html body footer div#tabs {
 }
 html body footer div#tabs > div {
   display: none;
+}
+html body footer div#tabs > div > h1 {
+  font-size: 1.5rem;
+}
+html body footer div#tabs > div > p {
+  border: 1px solid rgba(98, 181, 91, 0.5);
+  background: rgba(98, 181, 91, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: rgb(0, 107, 71);
+}
+html body footer div#tabs > div > hr {
+  margin: 1rem 0;
+}
+html body footer div#tabs > div > img {
+  border-radius: 0.5rem;
+}
+html body footer div#tabs > div > article {
+  text-indent: 2rem;
+  font-size: 1.2rem;
+}
+html body footer div#tabs > div > article > p {
+  margin: 1rem 0;
+  text-align: justify;
+  hyphens: auto;
 }
 html body footer div#tabs > div > div {
   display: grid;
