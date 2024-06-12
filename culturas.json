@@ -1287,10 +1287,8 @@
             "detalhe": "O melão é consumido principalmente como fruta fresca, em saladas de frutas, smoothies e sobremesas. Possui sabor doce e refrescante, textura suculenta e aroma característico. É rico em vitaminas A e C, antioxidantes, e tem alto teor de água. Armazene em local fresco e seco para manter a frescura."
         }
     },
-
-
     {
-        "id": "p6",
+        "id": "p7",
         "img": "melancia.png",
         "estacao": "Estação 1",
         "tituloEstacao": "Manejo integrado na cultura do tomate",
@@ -1426,7 +1424,7 @@
         },
         "Tab3": {
             "nome": "Uso",
-            "detalhe": "O melão é consumido principalmente como fruta fresca, em saladas de frutas, smoothies e sobremesas. Possui sabor doce e refrescante, textura suculenta e aroma característico. É rico em vitaminas A e C, antioxidantes, e tem alto teor de água. Armazene em local fresco e seco para manter a frescura."
+            "detalhe": "A melancia baby é consumida principalmente fresca, em sucos, saladas de frutas e sobremesas. Possui sabor doce e refrescante, textura suculenta e polpa vermelha vibrante. É rica em vitaminas A e C, antioxidantes, e tem alto teor de água."
         }
     }
 ]
