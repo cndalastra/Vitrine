@@ -16,7 +16,7 @@
         },
         "Tab2": {
             "nome": "Manejo",
-            "conducao": "Tutorado com Fitilho",
+            "conducao": "Tutorado com fitilho / Transplantio ao solo",
             "itens": [
                 {
                     "icone": "grass",
@@ -31,9 +31,9 @@
                     "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
                 },
                 {
-                    "icone": "local_florist",
-                    "data": "01/05/2024",
-                    "titulo": "Condução da cultura",
+                    "icone": "event",
+                    "titulo": "Colheita",
+                    "data": "15/05/2024",
                     "assunto": "Inicio de colheita"
                 },
                 {
@@ -174,10 +174,10 @@
         "img": "tIaliano.png",
         "estacao": "Estação 1",
         "tituloEstacao": "Manejo integrado na cultura do tomate",
-        "cultura": "Tomate Mini Italiano",
+        "cultura": "Tomate Mini Italiano / Solo",
         "Tab0": {
             "nome": "Estande",
-            "img": "tGrape.jpg"
+            "img": "tItalianoSolo.jpg"
         },
         "Tab1": {
             "nome": "Cultivar",
@@ -186,25 +186,25 @@
         },
         "Tab2": {
             "nome": "Manejo",
-            "conducao": "Tutorado com Fitilho",
+            "conducao": "Tutorado com fitilho / transplantio ao solo",
             "itens": [
                 {
                     "icone": "grass",
-                    "data": "26/01/2024",
+                    "data": "26/03/2024",
                     "titulo": "Semeadura",
                     "assunto": "Semeadura em bandejas"
                 },
                 {
                     "icone": "spa",
-                    "data": "13/02/2024",
+                    "data": "13/04/2024",
                     "titulo": "Transplantio",
                     "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
                 },
                 {
-                    "icone": "local_florist",
-                    "data": "01/05/2024",
-                    "titulo": "Condução da cultura",
-                    "assunto": "Inicio de colheita"
+                    "icone": "event",
+                    "titulo": "Colheita",
+                    "data": "14/07/2024",
+                    "assunto": "Expectativa de inicio de colheita"
                 },
                 {
                     "icone": "local_florist",
@@ -336,7 +336,1097 @@
         },
         "Tab3": {
             "nome": "Uso",
-            "detalhe": "O tomate grape tem este nome, porque grape em inglês é uva, ou seja  é uma variedade mais doce de tomate que pode ser utilizada de várias maneiras na culinária. Podendo  ser consumido in natura como snack, utilizado em saladas, assado, grelhado, em bruschettas e em pastas."
+            "detalhe": "Possui sabor doce e intenso, textura firme e formato alongado. É rico em vitaminas A e C, antioxidantes e baixo teor calórico. Tem ótima coloraçao. Indicado para comercializaçao em rácimos (pencas), bandejas ou a granel. O tomate mini italiano pode ser consumido in natura como snack, adicionado a saladas, assado, grelhado, utilizado em molhos, bruschettas, e em pratos de massas."
+        }
+    },
+    {
+        "id": "p26",
+        "img": "tIaliano.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Tomate Mini Italiano / Vasos",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "tItalianoVaso.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio: 110 dias, crescimento indeterminado, tamanho médio: 5 x 3 cm, frutos alongados com 2 a 3 lóculos, tipo de fruto: mini italiano, peso médio de frutos: 45g. Época de cultivo: verão/inverno.Tipo de cultivo: cultivo protegido/campo aberto. Resistências: Fusarium, vírus do mosaico, mancha de Clasdoporium, requeima",
+            "cultivar": "Piccolo"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Tutorado com fitilho / transplantio em vasos",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "26/03/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "13/04/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "titulo": "Colheita",
+                    "data": "14/07/2024",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "13/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Imersão em solução de Bacillus subtilis para prevenção de nematóide."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/02/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "04/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "19/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "03/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "03/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "02/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "20/03/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Aplicação de Cálcio e Boro foliar"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "12/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Cálcio e Boro foliar"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "18/04/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de piretróide para contenção de broca dos frutos"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "15/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "23/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de abamectina para controle de ácaro + Cloridrato de Formetanato para controle de tripes"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "10/04/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de clorantraniliprole para controle de traça do tomateiro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "15/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de fungicida sistêmico para controle preventivo de doenças, como: Requeima, Pinta-preta, Septoriose e entre outros"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "20/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "08/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "20/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "25/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "11/03/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "Possui sabor doce e intenso, textura firme e formato alongado. É rico em vitaminas A e C, antioxidantes e baixo teor calórico. Tem ótima coloraçao. Indicado para comercializaçao em rácimos (pencas), bandejas ou a granel. O tomate mini italiano pode ser consumido in natura como snack, adicionado a saladas, assado, grelhado, utilizado em molhos, bruschettas, e em pratos de massas."
+        }
+    },
+    {
+        "id": "p3",
+        "img": "tSaladete.jpg",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Tomate Saladete / Solo",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "tISaladeteSolo.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio: 110 dia, crescimento indeterminado, tomate de mesa, excelente cobertura foliar e pós colheita, alto número de frutos classe aa, tipo de fruto saladete, peso médio de frutos: 180g. Época de cultivo: mais indicado no outono/inverno. Tipo de cultivo: cultivo campo aberto. Resistências: vira cabeça, vírus do mosaico do tomateiro, virus do mosaíco do tabaco, requeima, murcha de vertícilio",
+            "cultivar": "Abbiadori"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Tutorado com fitilho / Transplantio ao solo",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "26/03/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "event",
+                    "titulo": "Colheita",
+                    "data": "13/04/2024",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "14/07/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "13/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Imersão em solução de Bacillus subtilis para prevenção de nematóide."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/02/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "04/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "19/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "03/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "03/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "02/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "20/03/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Aplicação de Cálcio e Boro foliar"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "12/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Cálcio e Boro foliar"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "18/04/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de piretróide para contenção de broca dos frutos"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "15/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "23/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de abamectina para controle de ácaro + Cloridrato de Formetanato para controle de tripes"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "10/04/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de clorantraniliprole para controle de traça do tomateiro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "15/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de fungicida sistêmico para controle preventivo de doenças, como: Requeima, Pinta-preta, Septoriose e entre outros"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "20/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "08/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "20/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "25/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "11/03/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "O tomate saladete possui sabor suave e levemente ácido, textura firme e formato arredondado. É rico em vitaminas A e C, antioxidantes e baixo teor calórico. Extra Grande (AA): Tomates de grande diâmetro, geralmente usados em sanduíches e pratos que requerem fatias grandes. O tomate saladete pode ser consumido in natura, saladas, molhos, sopas, sanduíches."
+        }
+    },
+    {
+        "id": "p27",
+        "img": "tSaladete.jpg",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Tomate Saladete / Vasos",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "tISaladeteVaso.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio: 110 dia, crescimento indeterminado, tomate de mesa, excelente cobertura foliar e pós colheita, alto número de frutos classe aa, tipo de fruto saladete, peso médio de frutos: 180g. Época de cultivo: mais indicado no outono/inverno. Tipo de cultivo: cultivo campo aberto. Resistências: vira cabeça, vírus do mosaico do tomateiro, virus do mosaíco do tabaco, requeima, murcha de vertícilio",
+            "cultivar": "Abbiadori"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Tutorado com fitilho / Transplantio em vaso",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "26/03/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "13/04/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "14/07/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "13/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Imersão em solução de Bacillus subtilis para prevenção de nematóide."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/02/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "04/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "19/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "03/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "03/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "02/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "20/03/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Aplicação de Cálcio e Boro foliar"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "12/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Cálcio e Boro foliar"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "18/04/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de piretróide para contenção de broca dos frutos"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "15/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "23/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de abamectina para controle de ácaro + Cloridrato de Formetanato para controle de tripes"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "10/04/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de clorantraniliprole para controle de traça do tomateiro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "15/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de fungicida sistêmico para controle preventivo de doenças, como: Requeima, Pinta-preta, Septoriose e entre outros"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "20/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "08/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "20/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "25/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "11/03/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "O tomate saladete possui sabor suave e levemente ácido, textura firme e formato arredondado. É rico em vitaminas A e C, antioxidantes e baixo teor calórico. Extra Grande (AA): Tomates de grande diâmetro, geralmente usados em sanduíches e pratos que requerem fatias grandes. O tomate saladete pode ser consumido in natura, saladas, molhos, sopas, sanduíches."
+        }
+    },
+    {
+        "id": "p4",
+        "img": "pepino.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Pepino Japonês",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "pepino.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio: 60 dias, planta enxertada, precocidade, produtividade e resistência a doenças, planta de médio vigor e média brotação lateral, excelente rendimento com frutos de alta qualidade, baixa porcentagem de frutos tortos, peso médio de frutos: 180g. Época de cultivo:verão/inverno. Tipo de cultivo:cultivo protegido/campo aberto.Resistências: oídio, míldio, corynespora, zymv",
+            "cultivar": "Souilder"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Tutorado com fitilho / transplantio em vasos",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "31/03/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "18/04/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "titulo": "Colheita",
+                    "data": "18/04/2024",
+                    "assunto": "Enxertadas no vaso. Porta enxerto abóbora Fuerza"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "29/06/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "03/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, condução do ramo principal."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "10/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, condução do ramo principal."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "17/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, condução do ramo principal."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "24/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, condução do ramo principal."
+                },
+                {
+                    "icone": "wallet",
+                    "data": "18/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "25/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "01/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "08/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "08/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "02/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "TEBUCONAZOL + TRIFLOXISTROBINA na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "25/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "02/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "09/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "16/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "23/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "30/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "06/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "O pepino japonês, com sua textura crocante, é versátil na culinária. Possui sabor suave e refrescante, textura crocante e pele fina e macia. É rico em água, vitaminas A e K, antioxidantes e baixo teor calórico.  É usado em saladas, pratos tradicionais japoneses como o sunomono, sushi, como acompanhamento em pratos principais, e até mesmo em rolinhos criativos."
+        }
+    },
+    {
+        "id": "p5",
+        "img": "pvermelho.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Pimentão Verde / Vermelho",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "pimentao.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo: 80-180 dias, frutos padronizados, de coloração vermelho intenso, com alto brilho, coloração verde escuro quando imaturo e vermelho quando maduro, parede grossa; pele lisa; tamanho 13x7cm, vigorosa; alta sanidade; ótima cobertura foliar, peso médio de frutos: 250-280g. Época de cultivo: verão/inverno. Tipo de cultivo:cultivo protegido/campo aberto.Resistências: pvy (potato virus y - mosaico da batata),  pepymv (pepper yellow mosaic virus - mosaico amarelo do pimentão),  tmv (tobacco mosaic virus - mosaico do tabaco)",
+            "cultivar": "Jaguariúna"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Tutorado com fitilho / transplantio em vasos",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "31/03/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "18/04/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "22/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "03/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Desbrota até primeira forquilha, retirada do primeiro fruto"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "10/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Desbrota até primeira forquilha, retirada do primeiro fruto"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "17/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Desbrota até primeira forquilha, retirada do primeiro fruto"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "24/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Desbrota até primeira forquilha, retirada do primeiro fruto"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "18/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "25/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "01/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "08/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "08/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "02/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "TEBUCONAZOL + TRIFLOXISTROBINA na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "25/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "02/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "09/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "16/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "23/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "30/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "06/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "O pepino japonês, com sua textura crocante, é versátil na culinária. Possui sabor suave e refrescante, textura crocante e pele fina e macia. É rico em água, vitaminas A e K, antioxidantes e baixo teor calórico.  É usado em saladas, pratos tradicionais japoneses como o sunomono, sushi, como acompanhamento em pratos principais, e até mesmo em rolinhos criativos."
+        }
+    },
+    {
+        "id": "p6",
+        "img": "melao.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Melão Amarelo",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "melao.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo: 70-80 dias, planta muito vigorosa, com polpa espessa e muito doce, coloração verde claro quando imaturo e amarelo quando maduro, parede grossa, pele lisa,tamanho 13x7cm, peso médio de frutos: 1,3 a 1,5kg.Tipo de cultivo: cultivo campo aberto",
+            "cultivar": "Ouro"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Tutorado com fitilho / Semeadura direta ao solo",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "18/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura direta ao solo "
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "22/06/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "03/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "10/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "17/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "24/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "18/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "25/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "01/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "08/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "08/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "02/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "TEBUCONAZOL + TRIFLOXISTROBINA na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "25/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "02/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "09/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "16/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "23/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "30/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "06/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "O melão é consumido principalmente como fruta fresca, em saladas de frutas, smoothies e sobremesas. Possui sabor doce e refrescante, textura suculenta e aroma característico. É rico em vitaminas A e C, antioxidantes, e tem alto teor de água. Armazene em local fresco e seco para manter a frescura."
+        }
+    },
+
+
+    {
+        "id": "p6",
+        "img": "melancia.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Melancia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "melancia.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo: 90-100 dias, frutas médias e saborosas, sua casca é verde escura e a polpa vermelha, peso médio de frutos: 3,0 - 6,0 kg. Tipo de cultivo: cultivo campo aberto",
+            "cultivar": "Mini Sugar Baby"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Tutorado com fitilho / Semeadura direta ao solo",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "18/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura direta ao solo "
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "22/06/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "03/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "10/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "17/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "24/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "18/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "25/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "01/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "08/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "08/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "02/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "TEBUCONAZOL + TRIFLOXISTROBINA na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "25/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "02/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "09/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "16/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "23/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "30/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "06/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "O melão é consumido principalmente como fruta fresca, em saladas de frutas, smoothies e sobremesas. Possui sabor doce e refrescante, textura suculenta e aroma característico. É rico em vitaminas A e C, antioxidantes, e tem alto teor de água. Armazene em local fresco e seco para manter a frescura."
         }
     }
 ]
