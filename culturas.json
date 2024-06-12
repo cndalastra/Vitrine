@@ -1,13 +1,13 @@
 [
     {
         "id": "p1",
-        "img": "grape.png",
+        "img": "tGrape.png",
         "estacao": "Estação 1",
         "tituloEstacao": "Manejo integrado na cultura do tomate",
         "cultura": "Tomate Grape",
         "Tab0": {
             "nome": "Estande",
-            "img": "grape.png"
+            "img": "tGrape.jpg"
         },
         "Tab1": {
             "nome": "Cultivar",
@@ -171,208 +171,166 @@
     },
     {
         "id": "p2",
-        "img": "alface_verde.png",
+        "img": "tIaliano.png",
         "estacao": "Estação 1",
         "tituloEstacao": "Manejo integrado na cultura do tomate",
-        "cultura": "Alface x",
+        "cultura": "Tomate Mini Italiano",
         "Tab0": {
             "nome": "Estande",
-            "img": "alface_verde.png"
+            "img": "tGrape.jpg"
         },
         "Tab1": {
             "nome": "Cultivar",
-            "detalhe": "Pontos fortes: Segurança de resultados em diferentes condições e ambientes; alta tolerância a rachaduras nos frutos; longevidade de colheita com manutenção do rendimento e qualidade. Resistências: Fol raça 1, ToMV estirpe Tm1, Ss. Características: Planta rústica; brix médio: 9°; peso médio de frutos: 15g. Época de cultivo: Verão/Inverno. Tipo de cultivo: Cultivo protegido/Campo aberto",
-            "cultivar": "Redo x"
+            "detalhe": "Características: ciclo médio: 110 dias, crescimento indeterminado, tamanho médio: 5 x 3 cm, frutos alongados com 2 a 3 lóculos, tipo de fruto: mini italiano, peso médio de frutos: 45g. Época de cultivo: verão/inverno.Tipo de cultivo: cultivo protegido/campo aberto. Resistências: Fusarium, vírus do mosaico, mancha de Clasdoporium, requeima",
+            "cultivar": "Piccolo"
         },
         "Tab2": {
             "nome": "Manejo",
-            "conducao": "Vasos sob espaldeira",
+            "conducao": "Tutorado com Fitilho",
             "itens": [
                 {
                     "icone": "grass",
-                    "data": "01/01/2024",
+                    "data": "26/01/2024",
                     "titulo": "Semeadura",
-                    "assunto": "semeadura direta no vaso."
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "13/02/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "01/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Inicio de colheita"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "13/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Imersão em solução de Bacillus subtilis para prevenção de nematóide."
                 },
                 {
                     "icone": "local_drink",
-                    "data": "01/01/2024",
+                    "data": "18/02/2024",
                     "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
-                },
-                {
-                    "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
                 },
                 {
                     "icone": "local_drink",
-                    "data": "01/01/2024",
+                    "data": "04/03/2024",
                     "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
-                },
-                {
-                    "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
                 },
                 {
                     "icone": "local_drink",
-                    "data": "01/01/2024",
+                    "data": "19/03/2024",
                     "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
-                },
-                {
-                    "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
                 },
                 {
                     "icone": "local_drink",
-                    "data": "01/01/2024",
+                    "data": "03/04/2024",
                     "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
-                },
-                {
-                    "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
                 },
                 {
                     "icone": "local_drink",
-                    "data": "01/01/2024",
+                    "data": "18/04/2024",
                     "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
-                },
-                {
-                    "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
                 },
                 {
                     "icone": "local_drink",
-                    "data": "01/01/2024",
+                    "data": "03/05/2024",
                     "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
-                },
-                {
-                    "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
                 },
                 {
                     "icone": "local_drink",
-                    "data": "01/01/2024",
+                    "data": "18/05/2024",
                     "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
-                },
-                {
-                    "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
                 },
                 {
                     "icone": "local_drink",
-                    "data": "01/01/2024",
+                    "data": "02/06/2024",
                     "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
                 },
                 {
-                    "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "icone": "wallet",
+                    "data": "20/03/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Aplicação de Cálcio e Boro foliar"
                 },
                 {
                     "icone": "local_drink",
-                    "data": "01/01/2024",
+                    "data": "12/04/2024",
                     "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
+                    "assunto": "Aplicação de Cálcio e Boro foliar"
                 },
                 {
                     "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
-                },
-                {
-                    "icone": "local_drink",
-                    "data": "01/01/2024",
-                    "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
+                    "data": "18/04/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de piretróide para contenção de broca dos frutos"
                 },
                 {
                     "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
-                },
-                {
-                    "icone": "local_drink",
-                    "data": "01/01/2024",
-                    "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
+                    "data": "15/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
                 },
                 {
                     "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
-                },
-                {
-                    "icone": "local_drink",
-                    "data": "01/01/2024",
-                    "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
+                    "data": "23/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de abamectina para controle de ácaro + Cloridrato de Formetanato para controle de tripes"
                 },
                 {
                     "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
-                },
-                {
-                    "icone": "local_drink",
-                    "data": "01/01/2024",
-                    "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
+                    "data": "10/04/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de clorantraniliprole para controle de traça do tomateiro"
                 },
                 {
                     "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "data": "15/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de fungicida sistêmico para controle preventivo de doenças, como: Requeima, Pinta-preta, Septoriose e entre outros"
                 },
                 {
-                    "icone": "local_drink",
-                    "data": "01/01/2024",
-                    "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
+                    "icone": "local_florist",
+                    "data": "20/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
                 },
                 {
-                    "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "icone": "local_florist",
+                    "data": "08/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
                 },
                 {
-                    "icone": "local_drink",
-                    "data": "01/01/2024",
-                    "titulo": "Fertirrigação",
-                    "assunto": "Aplicação de nitrato de calcio, sulfato de magnesio, MAP e KCl"
+                    "icone": "local_florist",
+                    "data": "20/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
                 },
                 {
-                    "icone": "barcode_reader",
-                    "data": "01/01/2024",
-                    "titulo": "Pulverização co inseticida",
-                    "assunto": "Aplicação de pirtróide para contenção de broca dos frutos"
+                    "icone": "local_florist",
+                    "data": "25/02/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "11/03/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": " Tutoramento, desbrota, poda das folhas mais velhas e secas."
                 }
             ]
         },

@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./sass/index.module.css">
+    <script defer type="module">
+        import { index } from './p.js';
+        index();
+    </script>
 </head>
 
 <body>
@@ -15,8 +19,10 @@
     </header>
     <div>
         <nav>
-            <button><i>view_in_ar</i>Faça um tour virtual</button>
-            <button><i>playlist_play</i>Veja a lista de culturas</button>
+            
+            <label for="lista"><i>playlist_play</i>Veja a lista de culturas</label>
+            <input type="checkbox" id="lista">
+            <ul id="listLinks"></ul>
         </nav>
         <q>Boas práticas da agropecuária, novas tecnologias, palestras técnicas e muito mais!</q>
 

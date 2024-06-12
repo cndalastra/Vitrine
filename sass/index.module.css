@@ -36,10 +36,37 @@ html body div {
 }
 html body div nav {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
   padding: 1rem;
 }
-html body div nav button {
+html body div nav > input {
+  display: none;
+}
+html body div nav > input:checked + ul {
+  max-height: 100vh;
+  transition: 0.5s;
+}
+html body div nav ul {
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.5s;
+}
+html body div nav ul li {
+  padding-left: 2rem;
+}
+html body div nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 107, 71);
+}
+html body div nav ul li img {
+  width: 2.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid rgb(98, 181, 91);
+  background: rgba(98, 181, 91, 0.5);
+}
+html body div nav label {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,10 +77,13 @@ html body div nav button {
   color: rgb(0, 107, 71);
   font-size: 1.2rem;
 }
-html body div nav button i {
+html body div nav label i {
   font-style: normal;
   font-family: "Icons";
   font-size: 2.8rem;
+}
+html body div nav label + div {
+  color: red;
 }
 html body div q {
   display: block;

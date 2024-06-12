@@ -39,10 +39,33 @@ html
       overflow: auto
       nav
         display: flex
+        flex-direction: column
         gap:1rem
         padding: 1rem
+        > input
+          display: none
 
-        button
+          &:checked + ul
+            max-height:100vh
+            transition: .5s 
+
+        ul
+          overflow: hidden
+          max-height:0
+          transition: .5s
+          li
+            padding-left: 2rem
+            a
+              text-decoration: none
+              color: $greenDark
+            img
+              width: 2.5rem
+              aspect-ratio: 1
+              border-radius: 50%
+              border: 1px solid $greenLite
+              background: rgba($greenLite , .5)
+
+        label
           display: flex
           justify-content: center
           align-items: center
@@ -52,10 +75,14 @@ html
           border-radius: .5rem
           color: $greenDark
           font-size: 1.2rem
+
           i
             font-style: normal
             font-family: 'Icons'
             font-size: 2.8rem
+          & + div
+            color: red
+          
       q
         display: block
         margin: 1.5rem

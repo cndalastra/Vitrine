@@ -128,6 +128,8 @@ html body footer div#tabs > div > hr {
 }
 html body footer div#tabs > div > img {
   border-radius: 0.5rem;
+  object-fit: cover;
+  height: 49vh;
 }
 html body footer div#tabs > div > article {
   font-size: 1.4rem;

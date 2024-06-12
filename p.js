@@ -7,7 +7,7 @@ const generateContent = async (idCultura) => {
         const data = await response.json();
         const d = data.find(item => item.id === idCultura);
         if (!d) {
-            return '<p>Conteúdo não encontrado</p>';
+            return '';
         }
 
         const content = `
@@ -29,7 +29,7 @@ const generateContent = async (idCultura) => {
             </section>
             <div id="tabs">
                 <div aria-label="${d.Tab0.nome}" class="show">
-                    <img src="../images/culturas/${d.Tab0.img}">
+                    <img src="../images/estande/${d.Tab0.img}">
                 </div>
                 <div aria-label="${d.Tab1.nome}">
                     <h3>Nome</h3>
@@ -51,17 +51,17 @@ const generateContent = async (idCultura) => {
                     <hr>
                     <h3>Timeline</h3>
                     ${d.Tab2.itens
-                        .sort((a, b) => {
-                            const [diaA, mesA, anoA] = a.data.split('/').map(Number);
-                            const [diaB, mesB, anoB] = b.data.split('/').map(Number);
+                .sort((a, b) => {
+                    const [diaA, mesA, anoA] = a.data.split('/').map(Number);
+                    const [diaB, mesB, anoB] = b.data.split('/').map(Number);
 
-                            const dataA = new Date(anoA, mesA - 1, diaA);
-                            const dataB = new Date(anoB, mesB - 1, diaB);
+                    const dataA = new Date(anoA, mesA - 1, diaA);
+                    const dataB = new Date(anoB, mesB - 1, diaB);
 
-                            return dataA - dataB;
-                        })
-                        .reduce((arr, { icone, data, titulo, assunto }) => {
-                            arr = `${arr}
+                    return dataA - dataB;
+                })
+                .reduce((arr, { icone, data, titulo, assunto }) => {
+                    arr = `${arr}
                             <div>
                                 <span class="icon">${icone}</span>
                                 <div class="item">
@@ -70,9 +70,9 @@ const generateContent = async (idCultura) => {
                                 </div>
                                 <span class="line"></span>
                             </div>`
-                            return arr;
-                        }, '')
-                    }
+                    return arr;
+                }, '')
+            }
                 </div>
             
                 <div aria-label="${d.Tab3.nome}">
@@ -109,3 +109,38 @@ export const init = async () => {
     document.getElementById('content').innerHTML = content;
     document.getElementById('buttons').addEventListener('click', (e) => action(e));
 }
+
+
+
+
+const generateLinks = async () => {
+    try {
+        const response = await fetch('./culturas.json');
+        if (!response.ok) {
+            throw new Error('Erro ao buscar o JSON');
+        }
+        const data = await response.json();
+
+        const content = data
+            .reduce((arr, { id, cultura, img }) => {
+                arr = `${arr}
+                <li>
+                    <img src="./images/culturas/${img}"/>
+                    <a href="/${id}/${id}.html">${cultura}</a>
+                </li>`
+                return arr;
+            }, '')
+
+        return content;
+    } catch (error) {
+        console.error('Erro ao gerar conteúdo:', error);
+        return '';
+    }
+}
+
+
+export const index = async () => {
+    const content = await generateLinks();
+    document.getElementById('listLinks').innerHTML = content;
+}
+
