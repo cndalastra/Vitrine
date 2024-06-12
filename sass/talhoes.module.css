@@ -24,10 +24,11 @@ html body {
   justify-content: space-between;
   gap: 1rem;
   height: calc(100vh - 56px);
-  background-image: url("bg.png"), url("senar.jpeg");
+  overflow: hidden;
+  background-image: url("senar.jpeg");
   background-repeat: no-repeat;
-  background-size: 100% auto, 15%;
-  background-position: bottom left, 1rem 1rem;
+  background-size: 15%;
+  background-position: 1rem 1.5rem;
 }
 html body header {
   display: flex;
@@ -39,7 +40,11 @@ html body header {
   background: linear-gradient(166deg, rgba(242, 244, 245, 0) 0%, rgba(26, 113, 0, 0.137254902) 40%, rgba(169, 209, 151, 0) 1%, rgba(224, 239, 249, 0) 100%);
 }
 html body header div {
-  display: flex;
+  display: grid;
+  grid-template: 1fr/1fr 5fr 1fr;
+  justify-content: center;
+  align-items: start;
+  width: 100vw;
 }
 html body header div img {
   height: 8rem;
@@ -47,6 +52,16 @@ html body header div img {
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.3843137255);
+  justify-self: center;
+}
+html body header div button {
+  background: none;
+  font-family: "Material Icons";
+  font-size: 4rem;
+  border: none;
+  color: rgb(0, 107, 71);
+  background: white;
+  border-radius: 50%;
 }
 html body header h1 {
   color: rgb(98, 181, 91);
@@ -73,6 +88,8 @@ html body footer section#buttons button {
   border: 1px solid grey;
   background: gainsboro;
   height: 2.5rem;
+  color: black;
+  font-size: 1.4rem;
 }
 html body footer section#buttons button:focus {
   outline: none;
@@ -87,11 +104,13 @@ html body footer div#tabs {
   padding: 1rem;
   backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.4862745098);
+  overflow: auto;
+  height: 10rem;
 }
 html body footer div#tabs > div {
   display: none;
 }
-html body footer div#tabs > div > h1 {
+html body footer div#tabs > div > h3 {
   font-size: 1.5rem;
 }
 html body footer div#tabs > div > p {
@@ -100,21 +119,34 @@ html body footer div#tabs > div > p {
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   color: rgb(0, 107, 71);
+  font-size: 1.4rem;
 }
 html body footer div#tabs > div > hr {
-  margin: 1rem 0;
+  margin: 1rem;
+  border: none;
+  border-top: 1px dashed gainsboro;
 }
 html body footer div#tabs > div > img {
   border-radius: 0.5rem;
 }
 html body footer div#tabs > div > article {
-  text-indent: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
-html body footer div#tabs > div > article > p {
-  margin: 1rem 0;
+html body footer div#tabs > div > article > li {
   text-align: justify;
   hyphens: auto;
+  line-height: 1.5;
+  padding: 1rem;
+}
+html body footer div#tabs > div > article > li::marker {
+  margin-right: 0.2rem;
+}
+html body footer div#tabs > div > article > p {
+  text-indent: 2rem;
+  margin: 1.5rem 0;
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.5;
 }
 html body footer div#tabs > div > div {
   display: grid;
@@ -137,12 +169,13 @@ html body footer div#tabs > div > div span.line {
 html body footer div#tabs > div > div div.item {
   grid-area: desc;
   min-height: 5rem;
+  font-size: 1.2rem;
 }
 html body footer div#tabs > div > div div.item span.title {
   align-self: center;
   font-weight: bold;
   color: #1C7A6F;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   display: block;
 }
 html body footer div#tabs > div > div div.item span.desc {

@@ -34,6 +34,27 @@ html body header img {
 html body div {
   overflow: auto;
 }
+html body div nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+html body div nav button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid rgba(98, 181, 91, 0.5);
+  background: rgba(98, 181, 91, 0.3);
+  border-radius: 0.5rem;
+  color: rgb(0, 107, 71);
+  font-size: 1.2rem;
+}
+html body div nav button i {
+  font-style: normal;
+  font-family: "Icons";
+  font-size: 2.8rem;
+}
 html body div q {
   display: block;
   margin: 1.5rem;

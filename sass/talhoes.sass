@@ -26,14 +26,11 @@ html
         justify-content: space-between
         gap: 1rem
         height: calc(100vh - 56px)
-        background-image: url('bg.png'), url('senar.jpeg')
+        overflow: hidden
+        background-image: url('senar.jpeg')
         background-repeat: no-repeat
-        background-size: 100% auto, 15%
-        background-position: bottom left, 1rem 1rem
-        // background-image: url('bg.png') url('senar.jpeg')
-        // background-repeat: no-repeat
-        // background-size: 100% auto 
-        // background-position: bottom
+        background-size:  15%
+        background-position:  1rem 1.5rem
 
         header
             display: flex
@@ -45,7 +42,11 @@ html
             background: linear-gradient(166deg, rgba(242, 244, 245, 0) 0%, #1a710023 40%, #a9d19700 1%, rgba(224, 239, 249, 0) 100%)
 
             div
-                display: flex
+                display: grid
+                grid-template: 1fr / 1fr 5fr 1fr
+                justify-content: center
+                align-items: start
+                width: 100vw
 
                 img
                     height: 8rem
@@ -53,6 +54,16 @@ html
                     object-fit: cover
                     border-radius: 50%
                     box-shadow: 2px 2px 3px 1px #00000062
+                    justify-self: center
+                button
+                    background: none
+                    font-family: 'Material Icons'
+                    font-size: 4rem
+                    border: none
+                    color: $greenDark
+                    background: white
+                    border-radius: 50%
+                
             h1
                 color: $greenLite
                 font-size: 1.5rem
@@ -77,6 +88,8 @@ html
                     border: 1px solid grey
                     background: gainsboro
                     height: 2.5rem
+                    color: black
+                    font-size: 1.4rem
                     &:focus
                         outline: none
                         background: white
@@ -90,32 +103,49 @@ html
                 padding: 1rem
                 backdrop-filter: blur(5px)
                 background: #ffffff7c
-
+                overflow: auto
+                height: 10rem
+                
                 &>div
                     display: none
-                    & > h1
+
+                    & > h3
                         font-size: 1.5rem
+
                     & > p
                         border: 1px solid rgba($greenLite, .5)
                         background:  rgba($greenLite, .3)
                         padding: .5rem 1rem
                         border-radius: .5rem
                         color: $greenDark
+                        font-size: 1.4rem
 
                     & > hr
-                        margin: 1rem 0
+                        margin: 1rem 
+                        border: none
+                        border-top: 1px dashed gainsboro
 
                     & > img
                         border-radius: .5rem
 
                     &>article
-                        text-indent: 2rem
-                        font-size: 1.2rem
-
-                        > p
-                            margin:1rem 0
+                        font-size: 1.4rem
+                        > li
                             text-align: justify
                             hyphens: auto
+                            line-height: 1.5
+                            padding: 1rem
+
+                            &::marker
+                                margin-right: .2rem
+                                
+
+                        > p
+                            text-indent: 2rem
+                            margin:1.5rem 0
+                            text-align: justify
+                            hyphens: auto
+                            line-height: 1.5
                     &>div
                         display: grid
                         grid-template: auto / 1fr 9fr
@@ -136,12 +166,13 @@ html
                         div.item
                             grid-area: desc
                             min-height: 5rem
+                            font-size: 1.2rem
 
                             span.title
                                 align-self: center
                                 font-weight: bold
                                 color: #1C7A6F
-                                font-size: 1.1rem
+                                font-size: 1.4rem
                                 display: block
                             span.desc
                                 margin-bottom: 1rem

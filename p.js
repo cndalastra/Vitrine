@@ -1,4 +1,4 @@
-export async function generateContent(idCultura) {
+const generateContent = async (idCultura) => {
     try {
         const response = await fetch('../culturas.json');
         if (!response.ok) {
@@ -13,7 +13,9 @@ export async function generateContent(idCultura) {
         const content = `
         <header>
             <div>
-                <img src="./${d.img}" alt="">
+                <span></span>
+                <img src="../images/culturas/${d.img}" alt="">
+                <a href="../index.html"><button>list</button></a>
             </div>
             <h1><b>${d.estacao}</b><br>${d.tituloEstacao}</h1>
             <h2>${d.cultura}</h2>
@@ -27,17 +29,18 @@ export async function generateContent(idCultura) {
             </section>
             <div id="tabs">
                 <div aria-label="${d.Tab0.nome}" class="show">
-                    <img src="${d.Tab0.img}">
+                    <img src="../images/culturas/${d.Tab0.img}">
                 </div>
                 <div aria-label="${d.Tab1.nome}">
-                    <h3>Cultivar</h3>
+                    <h3>Nome</h3>
                     <p>${d.Tab1.cultivar}</p>
                     <hr>
+                    <h3>Caracteristicas</h3>
                     <article>
-                        ${(`<p>${d.Tab1.detalhe} </p>`)
-                            .replaceAll('.', '.</p><p>')
-                            .replaceAll(/(<p>)([^:]+)(:)/g, '$1<b>$2</b>$3')
-                        }
+                        ${(`<li>${d.Tab1.detalhe} </li>`)
+                .replaceAll('.', '.</li><li>')
+                .replaceAll(/(<li>)([^:]+)(:)/g, '$1<b>$2</b>$3')
+            }
                     </article>
                   
                 </div>
@@ -47,19 +50,29 @@ export async function generateContent(idCultura) {
                     <p>${d.Tab2.conducao}</p>
                     <hr>
                     <h3>Timeline</h3>
-                    ${d.Tab2.itens.reduce((arr, { icone, data, titulo, assunto }) => {
-            arr = `${arr}
-                                <div>
-                                    <span class="icon">${icone}</span>
-                                    <div class="item">
-                                        <span class="title">${data} - ${titulo}</span>
-                                        <span class="desc">${assunto}</span>
-                                    </div>
-                                    <span class="line"></span>
-                                </div>`
-            return arr;
-        }, '')
-            }
+                    ${d.Tab2.itens
+                        .sort((a, b) => {
+                            const [diaA, mesA, anoA] = a.data.split('/').map(Number);
+                            const [diaB, mesB, anoB] = b.data.split('/').map(Number);
+
+                            const dataA = new Date(anoA, mesA - 1, diaA);
+                            const dataB = new Date(anoB, mesB - 1, diaB);
+
+                            return dataA - dataB;
+                        })
+                        .reduce((arr, { icone, data, titulo, assunto }) => {
+                            arr = `${arr}
+                            <div>
+                                <span class="icon">${icone}</span>
+                                <div class="item">
+                                    <span class="title">${data} - ${titulo}</span>
+                                    <span class="desc">${assunto}</span>
+                                </div>
+                                <span class="line"></span>
+                            </div>`
+                            return arr;
+                        }, '')
+                    }
                 </div>
             
                 <div aria-label="${d.Tab3.nome}">
@@ -78,4 +91,21 @@ export async function generateContent(idCultura) {
         console.error('Erro ao gerar conteúdo:', error);
         return '<p>Erro ao carregar conteúdo</p>';
     }
+}
+
+const action = async (e) => {
+    Array.from(document.getElementById('tabs').children).forEach(tag => {
+        tag.classList.remove('show');
+        if (e.target.id === tag.getAttribute('aria-label')) {
+            tag.classList.add('show');
+        }
+    });
+}
+
+export const init = async () => {
+    const fileName = location.href.split('/').pop().replace('.html', '')
+    document.title = fileName
+    const content = await generateContent(fileName);
+    document.getElementById('content').innerHTML = content;
+    document.getElementById('buttons').addEventListener('click', (e) => action(e));
 }
