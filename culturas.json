@@ -4215,7 +4215,8 @@
         },
         "Tab1": {
             "nome": "Cultivar",
-            "detalhe": "Características: ciclo médio: 120-130 dias, alta qualidade de raízes, folhagem verde escura com bom vigor vegetativo, alta tolerância a doenças - alternariose e oídio, folhas de arquitetura ereta, formato ciclíndrico com alta uniformidade, alta qualidade - pele lisa e coloração intensa, comprimento ótimo para o mercado - confere alta produvidade. Tipo de cultivo: campo aberto. Época de cultivo: inverno. Resistências: alternariose, oídio e pythium sp."
+            "detalhe": "Características: ciclo médio: 120-130 dias, alta qualidade de raízes, folhagem verde escura com bom vigor vegetativo, alta tolerância a doenças - alternariose e oídio, folhas de arquitetura ereta, formato ciclíndrico com alta uniformidade, alta qualidade - pele lisa e coloração intensa, comprimento ótimo para o mercado - confere alta produvidade. Tipo de cultivo: campo aberto. Época de cultivo: inverno. Resistências: alternariose, oídio e pythium sp",
+            "cultivar": "Soprano F1"
         },
         "Tab2": {
             "nome": "Manejo",
