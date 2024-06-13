@@ -44,7 +44,7 @@ html body div nav > input {
   display: none;
 }
 html body div nav > input:checked + ul {
-  max-height: 100vh;
+  max-height: 300vh;
   transition: 0.5s;
 }
 html body div nav ul {

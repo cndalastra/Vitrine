@@ -2424,7 +2424,7 @@
         },
         "Tab2": {
             "nome": "Manejo",
-            "conducao": "Canteiro com mulching",
+            "conducao": "Hidroponia",
             "itens": [
                 {
                     "icone": "grass",
@@ -2629,6 +2629,1687 @@
         "Tab3": {
             "nome": "Uso",
             "detalhe": "A alface crespa é usada em saladas, sanduíches e como guarnição. Excelente opção é beneficiamento da mesma para aumentar o valor de comercialização. Possui sabor suave e levemente adocicado, textura crocante e uma cor verde brilhante. É rica em vitaminas A, C e K, rica em fibras, além de ser hidratante e baixa em calorias.  A alface roxa é usada em saladas, sanduíches e como guarnição.  É rica em vitaminas A e C, rica em fibras, antioxidantes e baixa em calorias. Seu grande diferencial é a coloração roxa vibrante, ideal para consumo em saladas e pratos decorativos."
+        }
+    },
+    {
+        "id": "p19",
+        "img": "alCrespaRoxa.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Alface Crespa Roxa / Hidroponia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "alfaceRoxaHidro.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio: 30-35 dias, porte grande, folhas de elevada crespicidade. Cor roxa vibrante, tolerante ao pendoamento precoce. Tipo de cultivo: campo aberto e cultivo hidropônico. Época de cultivo: ano todo. Resistências: pythium spp, míldio,  lmv ii (vírus do mosaico da alface, patotipo ii), murchadeira (thielaviopsis basicola)",
+            "cultivar": "Pira Roxa"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Hidroponia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "23/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "11/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "08/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "31/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "25/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "11/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Preparo de solução estoque "
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "12/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "13/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "14/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "15/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "16/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "17/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "18/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "19/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "20/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "21/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "22/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "23/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "24/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "25/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "26/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "27/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "28/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "29/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "30/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "31/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "01/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "02/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "03/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "04/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "05/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "06/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "07/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A alface roxa é usada em saladas, sanduíches e como guarnição.  É rica em vitaminas A e C, rica em fibras, antioxidantes e baixa em calorias. Seu grande diferencial é a coloração roxa vibrante, ideal para consumo em saladas e pratos decorativos."
+        }
+    },
+    {
+        "id": "p20",
+        "img": "alfaAmericana.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Alface Americana / Hidroponia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "alfaceAmericanaHidro.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio total: 68 dias, rusticidade e ampla adaptabilidade, alta tolerância ao tip burn (deficiência de cálcio), ao talo oco (deficiência de boro) e ao pendoamento precoce, segurança de plantio em períodos de oscilações climáticas (meia-estação), plantas grandes e vigorosas, moderada formação de saia e excelente formação de cabeça, cabeças grandes de alta compacidade. Tipo de cultivo: campo aberto e cultivo hidropônico.Época de cultivo: campo: verão e meia-estação hidroponia: ano todo",
+            "cultivar": "Angelina"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Hidroponia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "23/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "11/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "08/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "31/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "25/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "11/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Preparo de solução estoque "
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "12/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "13/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "14/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "15/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "16/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "17/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "18/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "19/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "20/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "21/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "22/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "23/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "24/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "25/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "26/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "27/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "28/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "29/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "30/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "31/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "01/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "02/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "03/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "04/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "05/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "06/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "07/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A alface americana é usada em saladas, sanduíches e wraps. Possui sabor suave e refrescante, textura extremamente crocante e folhas de cor verde clara. É rica em fibras, vitaminas A e K, e baixa em calorias."
+        }
+    },
+    {
+        "id": "p21",
+        "img": "alCrespaVerde.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Alface Crespa Verde / Hidroponia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "alfaceVerdeHidro.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio total: 25-35 dias, precocidade, alto rendimento devido ao maior número de folhas por planta, alta tolerância ao pendoamento precoce, aula uniformidade e excelente pós-colheita, plantas grandes e volumosas, de formato “bolinha”, folhas largas, coloração verde brilhante e alta crespicidade. Tipo de cultivo: campo aberto e cultivo hidropônico. Época de cultivo: ano todo. Resistências: pythium spp e míldio.",
+            "cultivar": "Jade Verde "
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Hidroponia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "23/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "11/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "08/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "31/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "25/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "11/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Preparo de solução estoque "
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "12/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "13/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "14/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "15/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "16/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "17/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "18/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "19/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "20/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "21/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "22/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "23/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "24/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "25/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "26/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "27/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "28/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "29/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "30/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "31/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "01/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "02/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "03/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "04/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "05/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "06/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "07/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A alface crespa é usada em saladas, sanduíches e como guarnição. Excelente opção é beneficiamento da mesma para aumentar o valor de comercialização. Possui sabor suave e levemente adocicado, textura crocante e uma cor verde brilhante. É rica em vitaminas A, C e K, rica em fibras, além de ser hidratante e baixa em calorias."
+        }
+    },
+    {
+        "id": "p22",
+        "img": "alCrespaRoxa.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Alface Crespa Roxa / Hidroponia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "alfaceRoxaHidro.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio: 30-35 dias, porte grande, folhas de elevada crespicidade. Cor roxa vibrante, tolerante ao pendoamento precoce. Tipo de cultivo: campo aberto e cultivo hidropônico. Época de cultivo: ano todo. Resistências: pythium spp, míldio,  lmv ii (vírus do mosaico da alface, patotipo ii), murchadeira (thielaviopsis basicola)",
+            "cultivar": "Pira Roxa"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Hidroponia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "23/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "11/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "08/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "31/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "25/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "11/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Preparo de solução estoque "
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "12/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "13/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "14/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "15/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "16/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "17/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "18/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "19/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "20/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "21/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "22/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "23/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "24/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "25/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "26/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "27/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "28/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "29/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "30/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "31/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "01/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "02/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "03/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "04/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "05/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "06/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "07/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A alface roxa é usada em saladas, sanduíches e como guarnição.  É rica em vitaminas A e C, rica em fibras, antioxidantes e baixa em calorias. Seu grande diferencial é a coloração roxa vibrante, ideal para consumo em saladas e pratos decorativos."
+        }
+    },
+    {
+        "id": "p15",
+        "img": "manjericao.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Mangerição / Hidroponia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "manjericaoHidro.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo anual, planta perene com boa tolerância a baixas temperaturas, de sabor forte e amargo com um leve aroma de menta, é natural desta cultivar ter de 5% a 10% de plantas verdes ou verde com manchas vermelhas, deve-se sempre retirar as flores do manjerição, para aumentar a longevidade da cultura, comprimento ou altura 50 cm. Tipo de cultivo: campo aberto e cultivo hidropônico",
+            "cultivar": "Basilicão"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Hidroponia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "11/05/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "29/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "03/07/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "8/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "2/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "29/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Preparo de solução estoque "
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "30/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "31/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "01/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "02/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "03/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "04/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "05/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "06/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "07/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "08/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "09/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "10/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "11/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "12/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "O manjericão é usado em molhos, saladas, pestos e pratos de massas. Possui aroma doce e picante, sabor fresco e levemente anisado, com folhas macias de cor verde vibrante. É rico em vitaminas A, C e K, antioxidantes e óleos essenciais."
+        }
+    },
+    {
+        "id": "p16",
+        "img": "rucula.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Rúcula / Hidroponia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "ruculaHidro.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo total: 35 dias, precocidade, menor custo com manutenção das plantas no campo em função do ciclo precoce, tolerância ao pendoamento precoce, alta produtividade, qualidade e rendimento de maços, plantas vigorosas, folhas largas, menos recortadas, de coloração verde intensa. Tipo de cultivo: campo aberto e cultivo hidropônico. Época de cultivo: ano todo",
+            "cultivar": "Astro"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Hidroponia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "11/05/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "29/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "28/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "18/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "12/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "29/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Preparo de solução estoque "
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "30/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "31/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "01/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "02/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "03/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "04/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "05/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "06/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "07/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "08/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "09/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "10/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "11/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "12/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A rúcula é usada em saladas, pizzas, sanduíches e como guarnição. Possui sabor picante e levemente amargo, com textura crocante e folhas verdes escuras. É rica em vitaminas A, C e K, cálcio e antioxidantes."
+        }
+    },
+    {
+        "id": "p17",
+        "img": "salsa.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Salsa / Hidroponia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "salsaHidro.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio total: 50 dias, um ou mais cortes adicionais por ciclo,tolerância ao pendoamento precoce, alta produtividade e rendimento de maços, plantas vigorosas, folhas grandes e lisas, de coloração verde brilhante. Tipo de cultivo: campo aberto e cultivo hidropônico. Época de cultivo: ano todo",
+            "cultivar": "Chácara"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Hidroponia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "04/05/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "22/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "21/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "11/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "05/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "22/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Preparo de solução estoque "
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "23/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "24/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "25/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "26/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "27/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "28/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "29/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "30/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "31/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "01/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "02/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "03/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "04/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "05/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "06/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "07/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "08/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "09/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "10/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "11/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "12/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A rúcula é usada em saladas, pizzas, sanduíches e como guarnição. Possui sabor picante e levemente amargo, com textura crocante e folhas verdes escuras. É rica em vitaminas A, C e K, cálcio e antioxidantes."
+        }
+    },
+    {
+        "id": "p23",
+        "img": "rabanete.jpg",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Rabanete / Areia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "rabaneteAreia.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo: 90-100 dias, híbrido com excelente uniformidade e padrão de raiz, ideal para maçaria. Tipo de cultivo: campo aberto. Época de cultivo: ano todo. Resistências: rhizoctonia e ferrugem branca",
+            "cultivar": "Red Castle"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Canteiro em areia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "06/05/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "24/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "21/09/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de colheita de colheita"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "03/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "10/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "03/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "01/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "31/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "07/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "14/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "O rabanete é usado em saladas, conservas e como guarnição. Possui sabor picante e levemente apimentado, textura crocante e cor vibrante, variando do vermelho ao branco. É rico em vitamina C, fibras e antioxidantes."
+        }
+    },
+    {
+        "id": "p24",
+        "img": "beterraba.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Beterraba / Areia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "beterrabaAreia.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo: 80- 90 dias, planta vigorosa, altamente produtiva e com ótima sanidade de folhas, produz raízes uniformes e globulares de coloração roxo vibrante, ótima adaptação em regiões chuvosas. Tipo de cultivo: campo aberto. Época de cultivo: inverno",
+            "cultivar": "Redval"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Canteiro em areia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "24/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "semeadura direta no ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "23/08/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de colheita de colheita"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "04/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "11/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "04/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "22/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "01/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "08/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "15/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "22/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "29/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "05/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "12/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "04/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Tratos culturais: raleio, ou seja retirada de plantas excessivas para o melhor desenvolvimento."
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A beterraba é usada em saladas, sopas, sucos e como acompanhamento. Possui sabor adocicado terroso, textura macia e cor vermelha intensa. É rica em antioxidantes, fibras, vitaminas e minerais."
+        }
+    },
+    {
+        "id": "p25",
+        "img": "cenoura.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Cenoura / Areia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "cenouraAreia.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio: 120-130 dias, alta qualidade de raízes, folhagem verde escura com bom vigor vegetativo, alta tolerância a doenças - alternariose e oídio, folhas de arquitetura ereta, formato ciclíndrico com alta uniformidade, alta qualidade - pele lisa e coloração intensa, comprimento ótimo para o mercado - confere alta produvidade. Tipo de cultivo: campo aberto. Época de cultivo: inverno. Resistências: alternariose, oídio e pythium sp."
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Canteiro em areia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "24/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "semeadura direta no ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "23/07/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de colheita de colheita"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "04/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "11/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "04/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "22/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "01/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "08/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "15/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "22/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "29/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "05/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "12/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "04/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Tratos culturais: raleio, ou seja retirada de plantas excessivas para o melhor desenvolvimento."
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A cenoura é usada em saladas, sopas, suflês e como acompanhamento. Possui sabor adocicado, textura crocante e cor alaranjada vibrante. É rica em vitamina A, antioxidantes e fibras."
         }
     }
 ]
