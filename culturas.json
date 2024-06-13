@@ -1179,9 +1179,9 @@
                     "assunto": "Expectativa de inicio de colheita"
                 },
                 {
-                    "icone": "local_florist",
+                    "icone": "event",
+                    "titulo": "Colheita",
                     "data": "03/05/2024",
-                    "titulo": "Condução da cultura",
                     "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
                 },
                 {
@@ -1325,9 +1325,9 @@
                     "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
                 },
                 {
-                    "icone": "local_florist",
+                    "icone": "event",
+                    "titulo": "Colheita",
                     "data": "10/05/2024",
-                    "titulo": "Condução da cultura",
                     "assunto": "tutoramento, desbrota, suporte dos frutos com rede, poda do ramo principal para maior padronização dos frutos"
                 },
                 {
@@ -1425,6 +1425,1210 @@
         "Tab3": {
             "nome": "Uso",
             "detalhe": "A melancia baby é consumida principalmente fresca, em sucos, saladas de frutas e sobremesas. Possui sabor doce e refrescante, textura suculenta e polpa vermelha vibrante. É rica em vitaminas A e C, antioxidantes, e tem alto teor de água."
+        }
+    },
+    {
+        "id": "p8",
+        "img": "morango.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Morango",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "morango.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo: 90-100 dias, produção de dias neutros, produção que responde a temperatura, maior produtividade, sabor intenso, possuem polpa densa, peso médio de frutos: 50 g. Tipo de cultivo: cultivo protegido / campo aberto. Ambiente de cultivo: em solo, areia e em substrato.",
+            "cultivar": "Albyon"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Tutorado com fitilho / Semeadura direta ao solo",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "04/01/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "19/02/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "18/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "05/03/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Tratos culturais: limpeza e retirada das folhas secas, retirada dos estalões."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "04/04/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Tratos culturais: limpeza e retirada das folhas secas, retirada dos estalões."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "04/05/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Tratos culturais: limpeza e retirada das folhas secas, retirada dos estalões."
+                },
+                {
+                    "icone": "local_florist",
+                    "data": "03/06/2024",
+                    "titulo": "Condução da cultura",
+                    "assunto": "Tratos culturais: limpeza e retirada das folhas secas, retirada dos estalões."
+                },
+                {
+                    "icone": "wallet",
+                    "data": "20/03/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "27/03/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "03/04/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "10/04/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "10/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de abamectina para controle de ácaro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "04/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "TEBUCONAZOL + TRIFLOXISTROBINA na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "26/02/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "04/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "11/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "25/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "01/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "08/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "15/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "22/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "29/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "06/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "13/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "20/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "27/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "03/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "O morango  é usado em sobremesas, geleias, molhos e saladas de frutas, consumo in natura, e também finalidade comerciais e industriais.Possui sabor doce e levemente ácido, textura suculenta e polpa vermelha intensa. É rico em vitamina C, antioxidantes e fibras. O Albion é um moragueiro remontante, ou seja, necessita de dias longos para induzir o aparecimento das flores e dos frutos e como tal têm a capacidade de produzir durante todo o Verão e parte do Outono."
+        }
+    },
+    {
+        "id": "p9",
+        "img": "cebolinha.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Cebolinha / Mulching",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "cebolinhaMulching.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo: 60 dias, menor incidência de queima das pontas, espessura de folhas preferida pelo mercado, indicada para campo aberto e hidroponia, planta de porte alto (>60cm), com alta tolerância à queima das pontas, folhas uniformes, de coloração verde intensa. Tipo de cultivo: campo aberto/ cultivo hidropônico. Época de cultivo: ano todo",
+            "cultivar": "Katana"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Canteiro com mulching",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "11/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "29/04/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "18/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "19/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "26/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "02/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "09/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "19/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "13/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "06/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "13/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "20/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "27/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "03/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "10/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "Cebolinha é amplamente usada na culinária como condimento, guarnição e em molhos, marinadas e manteigas de ervas. Possui aroma fresco, sabor suave levemente picante, textura crocante e cor vibrante. É rica em vitaminas A, C e K, minerais como cálcio e potássio, e antioxidantes, sendo baixa em calorias."
+        }
+    },
+    {
+        "id": "p10",
+        "img": "cebolinha.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Cebolinha / Areia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "cebolinhaAreia.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo: 60 dias, menor incidência de queima das pontas, espessura de folhas preferida pelo mercado, indicada para campo aberto e hidroponia, planta de porte alto (>60cm), com alta tolerância à queima das pontas, folhas uniformes, de coloração verde intensa. Tipo de cultivo: campo aberto/ cultivo hidropônico. Época de cultivo: ano todo",
+            "cultivar": "Katana"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Canteiro com areia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "15/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "03/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "22/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "21/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "28/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "04/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "11/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "23/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "17/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "10/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "17/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "24/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "31/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "07/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "Cebolinha é amplamente usada na culinária como condimento, guarnição e em molhos, marinadas e manteigas de ervas. Possui aroma fresco, sabor suave levemente picante, textura crocante e cor vibrante. É rica em vitaminas A, C e K, minerais como cálcio e potássio, e antioxidantes, sendo baixa em calorias."
+        }
+    },
+    {
+        "id": "p18",
+        "img": "cebolinha.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Cebolinha / Hidroponia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "cebolinhaHidro.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo: 60 dias, menor incidência de queima das pontas, espessura de folhas preferida pelo mercado, indicada para campo aberto e hidroponia, planta de porte alto (>60cm), com alta tolerância à queima das pontas, folhas uniformes, de coloração verde intensa. Tipo de cultivo: campo aberto/ cultivo hidropônico. Época de cultivo: ano todo",
+            "cultivar": "Katana"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Canteiro com mulching",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "11/05/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "29/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "26/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "18/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "12/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "29/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Preparo de solução estoque "
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "30/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "31/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "01/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "02/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "03/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "04/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "05/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "06/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "07/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "08/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "09/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "10/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "11/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "12/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "Cebolinha é amplamente usada na culinária como condimento, guarnição e em molhos, marinadas e manteigas de ervas. Possui aroma fresco, sabor suave levemente picante, textura crocante e cor vibrante. É rica em vitaminas A, C e K, minerais como cálcio e potássio, e antioxidantes, sendo baixa em calorias."
+        }
+    },
+    {
+        "id": "p11",
+        "img": "couve.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Couve / Mulching",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "couveMulching.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio: 75 dias, tamanho grande e folhas escuras, precocidade, vigorosa, com formato e coloração ideais para o mercado, tamanho compacto e internódios curtos, peso médio: 150 g. Tipo de cultivo: campo aberto. Época de cultivo: ano todo. Resistências: podridão negra - xanthomonas campestris pv. Campestris",
+            "cultivar": "Kobe"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Canteiro com mulching",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "19/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "07/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "21/07/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "25/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "01/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "08/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "27/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "19/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "21/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de clorantraniliprole + bacillus thuringiensis para controle de traça das crucíferas"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "14/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "21/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "28/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "04/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "11/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A couve é usada na culinária em saladas, sopas, refogados, sucos e como acompanhamento de pratos principais. Possui sabor levemente amargo e terroso, textura crocante quando crua e macia quando cozida, além de uma cor verde vibrante. É rica em vitaminas A, C e K, cálcio, fibras e antioxidantes."
+        }
+    },
+    {
+        "id": "p12",
+        "img": "couve.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Couve / Areia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "couveAreia.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Características: ciclo médio: 75 dias, tamanho grande e folhas escuras, precocidade, vigorosa, com formato e coloração ideais para o mercado, tamanho compacto e internódios curtos, peso médio: 150 g. Tipo de cultivo: campo aberto. Época de cultivo: ano todo. Resistências: podridão negra - xanthomonas campestris pv. Campestris",
+            "cultivar": "Kobe"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Canteiro com areia",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "11/02/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "29/02/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "14/05/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Inicio de colheita"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "18/03/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "25/03/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "01/04/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "08/04/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "15/04/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "22/04/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "29/04/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "06/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "13/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "20/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "27/05/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "03/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "20/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "14/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "14/03/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de clorantraniliprole + bacillus thuringiensis para controle de traça das crucíferas"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "07/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "14/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "21/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "28/03/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "04/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "11/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "18/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "25/04/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "02/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "09/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "16/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "23/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "30/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "06/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A couve é usada na culinária em saladas, sopas, refogados, sucos e como acompanhamento de pratos principais. Possui sabor levemente amargo e terroso, textura crocante quando crua e macia quando cozida, além de uma cor verde vibrante. É rica em vitaminas A, C e K, cálcio, fibras e antioxidantes."
+        }
+    },
+    {
+        "id": "p13",
+        "img": "alfCrespaVerdeRoxa.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Alface Crespa Verde e Roxa / Mulching",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "alfaceMulching.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Jade: ciclo médio total: 25-35 dias, precocidade, alto rendimento devido ao maior número de folhas por planta, alta tolerância ao pendoamento precoce, aula uniformidade e excelente pós-colheita, plantas grandes e volumosas, de formato “bolinha”, folhas largas, coloração verde brilhante e alta crespicidade. Tipo de cultivo: campo aberto e cultivo hidropônico. Época de cultivo: ano todo. Resistências: pythium spp e míldio. Pira: ciclo médio: 30-35 dias, porte grande, folhas de elevada crespicidade. Cor roxa vibrante, tolerante ao pendoamento precoce. Tipo de cultivo: campo aberto e cultivo hidropônico. Época de cultivo: ano todo. Resistências: pythium spp, míldio,  lmv ii (vírus do mosaico da alface, patotipo ii), murchadeira (thielaviopsis basicola)",
+            "cultivar": "Jade Verde / Pira Roxa"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Canteiro com mulching",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "28/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "16/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "15/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de colheita de colheita"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "03/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "wallet",
+                    "data": "10/06/2024",
+                    "titulo": "Adubação",
+                    "assunto": "Adubação foliar - Cálcio e Boro"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "05/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "24/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: oídio, antracnose e mancha foliar."
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "23/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "30/05/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                },
+                {
+                    "icone": "local_drink",
+                    "data": "06/06/2024",
+                    "titulo": "Fertirrigação",
+                    "assunto": "Aplicação de Nitrato de cálcio, sulfato de magnésio, MAP e Kcl"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A alface crespa é usada em saladas, sanduíches e como guarnição. Excelente opção é beneficiamento da mesma para aumentar o valor de comercialização. Possui sabor suave e levemente adocicado, textura crocante e uma cor verde brilhante. É rica em vitaminas A, C e K, rica em fibras, além de ser hidratante e baixa em calorias.  A alface roxa é usada em saladas, sanduíches e como guarnição.  É rica em vitaminas A e C, rica em fibras, antioxidantes e baixa em calorias. Seu grande diferencial é a coloração roxa vibrante, ideal para consumo em saladas e pratos decorativos."
+        }
+    },
+    {
+        "id": "p14",
+        "img": "alfCrespaVerdeRoxa.png",
+        "estacao": "Estação 1",
+        "tituloEstacao": "Manejo integrado na cultura do tomate",
+        "cultura": "Alface Crespa Verde e Roxa / Hidroponia",
+        "Tab0": {
+            "nome": "Estande",
+            "img": "alfaVerdeRoxaHidro.jpg"
+        },
+        "Tab1": {
+            "nome": "Cultivar",
+            "detalhe": "Jade: ciclo médio total: 25-35 dias, precocidade, alto rendimento devido ao maior número de folhas por planta, alta tolerância ao pendoamento precoce, aula uniformidade e excelente pós-colheita, plantas grandes e volumosas, de formato “bolinha”, folhas largas, coloração verde brilhante e alta crespicidade. Tipo de cultivo: campo aberto e cultivo hidropônico. Época de cultivo: ano todo. Resistências: pythium spp e míldio. Pira: ciclo médio: 30-35 dias, porte grande, folhas de elevada crespicidade. Cor roxa vibrante, tolerante ao pendoamento precoce. Tipo de cultivo: campo aberto e cultivo hidropônico. Época de cultivo: ano todo. Resistências: pythium spp, míldio,  lmv ii (vírus do mosaico da alface, patotipo ii), murchadeira (thielaviopsis basicola)",
+            "cultivar": "Jade Verde / Pira Roxa"
+        },
+        "Tab2": {
+            "nome": "Manejo",
+            "conducao": "Canteiro com mulching",
+            "itens": [
+                {
+                    "icone": "grass",
+                    "data": "27/04/2024",
+                    "titulo": "Semeadura",
+                    "assunto": "Semeadura em bandejas"
+                },
+                {
+                    "icone": "spa",
+                    "data": "15/05/2024",
+                    "titulo": "Transplantio",
+                    "assunto": "Transferência da muda produzida em bandeja para o ambiente de cultivo"
+                },
+                {
+                    "icone": "event",
+                    "data": "12/06/2024",
+                    "titulo": "Colheita",
+                    "assunto": "Expectativa de inicio de colheita"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "04/06/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": " Aplicação de imidacloprido e acetamiprido para controle de mosca branca"
+                },
+                {
+                    "icone": "barcode_reader",
+                    "data": "29/05/2024",
+                    "titulo": "Tratamento fitossanitario",
+                    "assunto": "Aplicação de PROPAMOCARBE + TEBUCONAZOL na prevenção de doenças foliares: mancha púrpura, antracnose e mancha de alternaria"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "15/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Preparo de solução estoque "
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "16/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "17/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "18/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "19/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "20/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "21/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "22/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "23/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "24/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "25/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "26/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "27/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "28/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "29/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "30/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "31/05/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "01/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "02/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "03/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "04/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "05/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "06/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "07/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "08/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "09/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "10/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                },
+                {
+                    "icone": "water_drop",
+                    "data": "11/06/2024",
+                    "titulo": "Correção de EC",
+                    "assunto": "Reposição de soluç;ao nutritiva"
+                }
+            ]
+        },
+        "Tab3": {
+            "nome": "Uso",
+            "detalhe": "A alface crespa é usada em saladas, sanduíches e como guarnição. Excelente opção é beneficiamento da mesma para aumentar o valor de comercialização. Possui sabor suave e levemente adocicado, textura crocante e uma cor verde brilhante. É rica em vitaminas A, C e K, rica em fibras, além de ser hidratante e baixa em calorias.  A alface roxa é usada em saladas, sanduíches e como guarnição.  É rica em vitaminas A e C, rica em fibras, antioxidantes e baixa em calorias. Seu grande diferencial é a coloração roxa vibrante, ideal para consumo em saladas e pratos decorativos."
         }
     }
 ]
